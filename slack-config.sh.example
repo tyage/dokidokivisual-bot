@@ -1,0 +1,5 @@
+#!/bin/bash
+# -*- coding: utf-8 -*-
+
+SLACK_TOKEN=
+SLACK_TEAM=
