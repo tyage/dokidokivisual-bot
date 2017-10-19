@@ -4,7 +4,7 @@
 cd `dirname $0`
 source ./slack-config.sh
 
-declare -A MAGAZINES=([09]='まんがタイムきらら' [16]='まんがタイムきららミラク' [19]='まんがタイムきららMAX' [24]='まんがタイムきららフォワード' [28]='まんがタイムキャラット')
+declare -A MAGAZINES=([09]='まんがタイムきらら' [19]='まんがタイムきららMAX' [24]='まんがタイムきららフォワード' [28]='まんがタイムキャラット')
 MAGAZINE=${MAGAZINES[$(date +%d)]}
 
 if [ -n "$MAGAZINE" ]; then
